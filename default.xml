@@ -315,7 +315,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
+  <project path="external/tinyalsa" name="lenovo-yt2-dev/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
@@ -384,17 +384,17 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
+  <project path="hardware/intel/common/libmix" name="lenovo-yt2-dev/android_hardware_intel_common_libmix" groups="intel" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" remote="aosp" />
+  <project path="hardware/intel/common/omx-components" name="lenovo-yt2-dev/android_hardware_intel_common_omx-components" groups="intel" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" />
-  <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/libdrm" name="CyanogenMod/android_hardware_intel_img_libdrm" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
+  <project path="hardware/intel/img/hwcomposer" name="lenovo-yt2-dev/android_hardware_intel_img_hwcomposer" groups="intel" />
+  <project path="hardware/intel/img/libdrm" name="lenovo-yt2-dev/android_hardware_intel_img_libdrm" groups="intel" />
+  <project path="hardware/intel/img/psb_headers" name="lenovo-yt2-dev/android_hardware_intel_img_psb_headers" groups="intel" />
+  <project path="hardware/intel/img/psb_video" name="lenovo-yt2-dev/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
@@ -567,7 +567,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <project path="system/core" name="lenovo-yt2-dev/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
@@ -590,4 +590,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+
+  <project path="device/lenovo/yt2" name="lenovo-yt2-dev/android_device_lenovo_yt2" />
+  <project path="kernel/lenovo/baytrail" name="lenovo-yt2-dev/android_kernel_lenovo_baytrail" />
+  <project path="vendor/lenovo" name="lenovo-yt2-dev/proprietary_vendor_lenovo" />
 </manifest>
