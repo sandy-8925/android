@@ -585,7 +585,7 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
-  <project path="device/lenovo/yt2" name="lenovo-yt2-dev/android_device_lenovo_yt2" />
+  <project path="device/lenovo/YT2" name="lenovo-yt2-dev/android_device_lenovo_yt2" />
   <project path="kernel/lenovo/baytrail" name="lenovo-yt2-dev/android_kernel_lenovo_baytrail" />
-  <project path="vendor/lenovo" name="lenovo-yt2-dev/proprietary_vendor_lenovo" />
+  <project path="vendor/lenovo/YT2" name="lenovo-yt2-dev/proprietary_vendor_lenovo_YT2" />
 </manifest>
